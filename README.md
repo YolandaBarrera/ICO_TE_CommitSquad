@@ -1,2 +1,8 @@
-# ICO_TE_CommitSquad
-Proyecto parcial de la materia: Temas especiales de computación 1
+Nombre del equipo: CommitSquad
+
+Nombre de los integrantes y que rol tienen:
+- Barrera Correa Yolanda Michel   Rol: Scrum Master
+
+  
+Correo de los integrantes:
+- 
