@@ -7,4 +7,4 @@ Nombre de los integrantes y que rol tienen:
   
 Correo de los integrantes:
 - 
--alexandragonzalez34@aragon.unam.mx
+- alexandragonzalez34@aragon.unam.mx
