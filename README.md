@@ -1,7 +1,7 @@
 Nombre del equipo: CommitSquad
 
 Nombre de los integrantes y que rol tienen:
-- Barrera Copca Diego Esteban
+- Barrera Copca Diego Esteban Rol:Scrum team
 - Barrera Correa Yolanda Michel   Rol: Scrum Master
 - González Arias Alexandra Galilea Rol: Team Scrum
 
