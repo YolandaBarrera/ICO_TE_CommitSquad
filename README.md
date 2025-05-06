@@ -6,6 +6,7 @@ Nombre de los integrantes y que rol tienen:
 - Garcia Sebastian Luis Erick Rol: Team Scrum
 - González Arias Alexandra Galilea Rol: Team Scrum
 - Jimenez Romero Nayeli Viridiana Rol: Team Scrum
+-Rojas Herrera Ricardo 
 
   
 Correo de los integrantes:
@@ -14,3 +15,4 @@ Correo de los integrantes:
 - erickgarcia57@aragon.unam.mx
 - alexandragonzalez34@aragon.unam.mx
 - viridianajimenez21@aragon.unam.mx
+- ricardorojas320@aragon.unam.mx
