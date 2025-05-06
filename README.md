@@ -6,5 +6,5 @@ Nombre de los integrantes y que rol tienen:
 
   
 Correo de los integrantes:
-- 
+- yolandabarrera03@aragon.unam.mx
 - alexandragonzalez34@aragon.unam.mx
