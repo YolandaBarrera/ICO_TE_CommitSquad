@@ -5,7 +5,7 @@ Nombre de los integrantes y que rol tienen:
 - Barrera Correa Yolanda Michel   Rol: Scrum Master
 - Garcia Sebastian Luis Erick Rol: Team Scrum
 - González Arias Alexandra Galilea Rol: Team Scrum
-  
+- Jimenez Romero Nayeli Viridiana Rol: Team Scrum
 
   
 Correo de los integrantes:
@@ -13,3 +13,4 @@ Correo de los integrantes:
 - yolandabarrera03@aragon.unam.mx
 - erickgarcia57@aragon.unam.mx
 - alexandragonzalez34@aragon.unam.mx
+- viridianajimenez21@aragon.unam.mx
