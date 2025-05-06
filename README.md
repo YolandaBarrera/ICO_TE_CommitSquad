@@ -1,10 +1,12 @@
 Nombre del equipo: CommitSquad
 
 Nombre de los integrantes y que rol tienen:
+- Barrera Copca Diego Esteban
 - Barrera Correa Yolanda Michel   Rol: Scrum Master
 - González Arias Alexandra Galilea Rol: Team Scrum
 
   
 Correo de los integrantes:
+- diegocopca00@aragon.unam.mx
 - yolandabarrera03@aragon.unam.mx
 - alexandragonzalez34@aragon.unam.mx
