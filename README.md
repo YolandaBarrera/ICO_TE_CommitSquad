@@ -16,3 +16,4 @@ Correo de los integrantes:
 - alexandragonzalez34@aragon.unam.mx
 - viridianajimenez21@aragon.unam.mx
 - ricardorojas320@aragon.unam.mx
+- ivancastellanos84@aragon.unam.mx
