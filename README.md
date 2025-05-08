@@ -6,7 +6,8 @@ Nombre de los integrantes y que rol tienen:
 - Garcia Sebastian Luis Erick Rol: Team Scrum
 - González Arias Alexandra Galilea Rol: Team Scrum
 - Jimenez Romero Nayeli Viridiana Rol: Team Scrum
--Rojas Herrera Ricardo 
+- Rojas Herrera Ricardo
+- Hernández Castellanos Edgar Iván | Rol: Team Scrum
 
   
 Correo de los integrantes:
