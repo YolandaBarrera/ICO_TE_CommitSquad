@@ -14,12 +14,12 @@
 
 /* Título centrado con respecto al header */
 .titulo {
-  flex: 1;
   color: white;
-  text-align: center;
   font-size: 32px;
   font-family: "Poppins", sans-serif;
+  text-align: left;
 }
+
 
 /* Botones alineados a la derecha */
 .botones {
@@ -152,14 +152,18 @@ body.fondo {
 /* BOTONES PRINCIPALES */
 .boton-enlace {
   display: inline-block;
-  padding: 30px 250px;
+  width: 350px; /* Establece un ancho fijo para todos */
+  padding: 30px 0;
+  text-align: center;
   background-color: #02102efd;
   color: white;
   text-decoration: none;
   border-radius: 8px;
   font-size: 16px;
   transition: transform 0.3s ease, background-color 0.3s ease;
+  
 }
+
 
 /* NUEVO: animación al pasar cursor */
 .boton-enlace:hover {
