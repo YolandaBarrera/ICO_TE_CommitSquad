@@ -10,7 +10,7 @@ body {
 }
 
 .card {
-  background: radial-gradient(circle at top left, #003399, #000814);
+  background: radial-gradient(circle at top left, #000814);
   border-radius: 20px;
   padding: 2rem;
   max-width: 1000px;
@@ -35,7 +35,8 @@ body {
 .profile-section h2 {
   margin-top: 1rem;
   font-size: 2rem;
-  color: #00c3ffc5;
+  color: #ffffff;
+  text-shadow: 0 0 20px #203a43, 0 0 30px #2c5364;
 }
 
 .description {
