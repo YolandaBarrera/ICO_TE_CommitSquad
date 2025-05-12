@@ -1,0 +1,194 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #02102efd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Elemento vacío izquierdo para centrar visualmente */
+.espacio-vacio {
+  flex: 1;
+}
+
+/* Título centrado con respecto al header */
+.titulo {
+  color: white;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+
+/* Botones alineados a la derecha */
+.botones {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+.botones a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.botones a:hover {
+  color: orange;
+}
+
+.botones a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: orange;
+  transition: width 0.3s;
+}
+
+.botones a:hover::after {
+  width: 100%;
+}
+
+
+/* MENÚ DESPLEGABLE CONTACTOS */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #02102efd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+}
+
+.dropdown-content a:hover {
+  background-color: #042b66;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* BOTONES DEL HEADER */
+.botones a {
+  display: inline-block;
+  position: relative;
+  margin-right: 30px; 
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botones a:hover {
+  color: orange;
+}
+
+.botones a::after {
+  content: "";  
+  position: absolute;
+  left: 0;
+  bottom: -2px;  
+  width: 0;
+  height: 3px;  
+  background-color: orange;
+  transition: width 0.3s;
+}
+
+.botones a:hover::after {
+  width: 100%;  
+}
+
+/* FONDO */
+body.fondo {
+  background-image: url("img/fondo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* TABLA PRINCIPAL */
+.tabla-principal {
+  margin: 160px auto;
+}
+
+/* NUEVO: marco estilizado a imagen */
+.tabla-principal img {
+  border: 5px solid #02102efd;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.columna-enlaces {
+  padding-left: 30px;
+  vertical-align: top;
+}
+
+/* BOTONES PRINCIPALES */
+.boton-enlace {
+  display: inline-block;
+  width: 350px; /* Establece un ancho fijo para todos */
+  padding: 30px 0;
+  text-align: center;
+  background-color: #02102efd;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
+}
+
+
+/* NUEVO: animación al pasar cursor */
+.boton-enlace:hover {
+  background-color: #042b66;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px; 
+  background-color: rgb(33, 31, 31);
+  margin-top: 50px;
+}
+
+#CuadroTres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  gap: 5px;
+  color: white;
+  font-size: 15px;
+}
