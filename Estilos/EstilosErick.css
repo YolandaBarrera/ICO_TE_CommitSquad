@@ -1,3 +1,83 @@
-.color{
-    color: white;
+/* Fondo general */
+body.fondo {
+  background-image: url("../img/fondo1.png");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tarjeta principal */
+.card {
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #02102efd;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Sección del perfil */
+.profile-section {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #3498db;
+  margin-bottom: 15px;
+}
+
+/* Color para nombres y subtítulos */
+.color {
+  color: white;
+}
+
+/* Títulos */
+h2 {
+  margin: 10px 0 5px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: white;
+}
+
+/* Párrafos y listas */
+p, li {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Lista sin puntos extra grandes */
+ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+/* Enlaces de redes sociales */
+.social-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  background-color: #3498db;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #2980b9;
 }
