@@ -1,18 +1,25 @@
+/* ========== General Styles ========== */
 body {
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
   background: black;
   color: #e0e0e0;
+  font-family: "Poppins", sans-serif;
 }
+
+/* ========== Hero Section ========== */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40vh;
-  background: #000814;
+  width: 1100px;
+  height: 150px;
+  background: black;
   text-align: center;
-  margin-bottom: 40px;
   border-bottom: 4px solid #2c5364;
+  margin: 50px auto 40px;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 
 .hero h1 {
@@ -22,6 +29,7 @@ body {
   text-shadow: 0 0 20px #203a43, 0 0 30px #2c5364;
 }
 
+/* ========== Content Section ========== */
 .content {
   max-width: 1100px;
   margin: auto;
@@ -37,6 +45,7 @@ body {
   font-size: 2em;
 }
 
+/* ========== Info Block ========== */
 .info-block {
   background: radial-gradient(circle at top left, #003399, #000814);
   border: 1px solid #2c5364;
@@ -46,6 +55,7 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
 
+/* ========== Cards Section ========== */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -83,6 +93,7 @@ body {
   font-weight: 400;
 }
 
+/* ========== List Styles ========== */
 ul {
   padding-left: 20px;
 }

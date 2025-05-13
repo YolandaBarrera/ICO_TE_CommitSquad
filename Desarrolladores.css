@@ -5,6 +5,7 @@ body {
   color: white;
   min-height: 100vh;
   background-color: black;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ========== CARD PRINCIPAL ========== */
@@ -100,7 +101,7 @@ body {
   color: #000814;
 }
 
-/* Contenedor Redes Sociales */
+/* ======= CONTENEDOR REDES SOCIALES ======= */
 #Sociales {
   display: flex;
   align-items: center;

@@ -4,50 +4,107 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patrones de Diseño</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="PatronesDiseno.css">
+  <link rel="stylesheet" href="estilosindex.css">
+  
 </head>
+
 <body>
 
-<section class="hero">
-  <h1>PATRONES DE DISEÑO</h1>
-</section>
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="titulo">CommitSquad</h1>
 
-<section class="content">
-  <h2>Definición</h2>
-  <div class="info-block">
-    <p>Un patrón de diseño es una solución reutilizable a un conjunto de problemas repetitivos en el desarrollo de software. Como lo definió Christopher Alexander, un patrón describe un problema que ocurre una y otra vez, y muestra la esencia de su solución para reutilizarla múltiples veces sin hacerlo de la misma forma dos veces.</p>
-  </div>
+    <div class="botones">
+      <a href="index.html">INICIO</a>
+      <a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">FES</a>
 
-  <h2>Ventajas</h2>
-  <div class="info-block">
-    <ul>
-      <li>Reutilización de soluciones probadas y comprobadas.</li>
-      <li>Mejora la comunicación entre desarrolladores usando un lenguaje común.</li>
-      <li>Aumenta la flexibilidad, portabilidad y extensibilidad del software.</li>
-      <li>Facilita el mantenimiento y la evolución del sistema.</li>
-    </ul>
-  </div>
+      <div class="dropdown">
+        <a href="#">DESARROLLADORES ▾</a>
+        <div class="dropdown-content">
+          <a href="Diego.html">Diego Barrera</a>
+          <a href="Yolanda.html">Yolanda Barrera</a>
+          <a href="Erick.html">Erick Garcia</a>
+          <a href="Galilea.html">Galilea Gonzalez</a>
+          <a href="Edagr.html">Edgar Hernandez</a>
+          <a href="Viridiana.html">Jimenez Viridiana</a>
+          <a href="Pamela.html">Pamela Ramirez</a>
+          <a href="Ricardo.html">Ricardo Rojas</a>
+        </div>
+      </div>
+    </div>
+  </header>
 
-  <h2>Patrones más comunes</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Singleton</h3>
-      <p><strong>Problema:</strong> Garantizar que una clase tenga solo una instancia y proporcionar un punto de acceso global a ella.</p>
-      <p><strong>Ventaja:</strong> Ahorro de memoria, simplicidad y centralización de comportamiento.</p>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>PATRONES DE DISEÑO</h1>
+  </section>
+
+  <!-- CONTENT SECTION -->
+  <section class="content">
+
+    <!-- Definición -->
+    <h2>Definición</h2>
+    <div class="info-block">
+      <p>
+        Un patrón de diseño es una solución reutilizable a un conjunto de problemas repetitivos en el desarrollo de software. 
+        Como lo definió Christopher Alexander, un patrón describe un problema que ocurre una y otra vez, y muestra la esencia 
+        de su solución para reutilizarla múltiples veces sin hacerlo de la misma forma dos veces.
+      </p>
     </div>
-    <div class="card">
-      <h3>Factory</h3>
-      <p><strong>Problema:</strong> Delegar la creación de objetos en subclases cuando no se puede anticipar su tipo exacto.</p>
-      <p><strong>Ventaja:</strong> Flexibilidad y desacoplamiento entre la creación de objetos y su uso.</p>
+
+    <!-- Ventajas -->
+    <h2>Ventajas</h2>
+    <div class="info-block">
+      <ul>
+        <li>Reutilización de soluciones probadas y comprobadas.</li>
+        <li>Mejora la comunicación entre desarrolladores usando un lenguaje común.</li>
+        <li>Aumenta la flexibilidad, portabilidad y extensibilidad del software.</li>
+        <li>Facilita el mantenimiento y la evolución del sistema.</li>
+      </ul>
     </div>
-    <div class="card">
-      <h3>Adapter</h3>
-      <p><strong>Problema:</strong> Permitir que clases con interfaces incompatibles trabajen juntas adaptando una interfaz a otra.</p>
-      <p><strong>Ventaja:</strong> Integración flexible y reutilización de código existente.</p>
+
+    <!-- Patrones más comunes -->
+    <h2>Patrones más comunes</h2>
+    <div class="cards">
+
+      <div class="card">
+        <h3>Singleton</h3>
+        <p>
+          <strong>Problema:</strong> Garantizar que una clase tenga solo una instancia y proporcionar un punto de acceso global a ella.
+          <br><br><strong>Ventaja:</strong> Ahorro de memoria, simplicidad y centralización de comportamiento.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Factory</h3>
+        <p>
+          <strong>Problema:</strong> Delegar la creación de objetos en subclases cuando no se puede anticipar su tipo exacto.
+          <br><br><strong>Ventaja:</strong> Flexibilidad y desacoplamiento entre la creación de objetos y su uso.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Adapter</h3>
+        <p>
+          <strong>Problema:</strong> Permitir que clases con interfaces incompatibles trabajen juntas adaptando una interfaz a otra.
+          <br><br><strong>Ventaja:</strong> Integración flexible y reutilización de código existente.
+        </p>
+      </div>
+
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div id="CuadroTres">
+      <p>Proyecto parcial</p>
+      <p>FES Aragón - UNAM | 6° Semestre</p>
+      <p>Materia: Temas especiales de computación - Mayo 2025</p>
+    </div>
+  </footer>
 
 </body>
 </html>
