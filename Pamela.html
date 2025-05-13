@@ -2,21 +2,57 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Perfil de Pamela Ramírez</title>
+  <title>Ingeniera Pamela Arevalo</title>
+
+  <!-- Estilos -->
   <link rel="stylesheet" href="Desarrolladores.css">
+  <link rel="stylesheet" href="estilosindex.css">
+
+  <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="titulo">CommitSquad</h1>
+
+    <div class="botones">
+      <a href="index.html">INICIO</a>
+      <a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">FES</a>
+
+      <div class="dropdown">
+        <a href="#">DESARROLLADORES ▾</a>
+        <div class="dropdown-content">
+          <a href="Diego.html">Diego Barrera</a>
+          <a href="Yolanda.html">Yolanda Barrera</a>
+          <a href="Erick.html">Erick Garcia</a>
+          <a href="Galilea.html">Galilea Gonzalez</a>
+          <a href="Edagr.html">Edgar Hernandez</a>
+          <a href="Viridiana.html">Jimenez Viridiana</a>
+          <a href="Pamela.html">Pamela Ramirez</a>
+          <a href="Ricardo.html">Ricardo Rojas</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PERFIL -->
   <section class="card">
+
     <div class="profile-section">
       <img src="img/Pamela.jpg" alt="Foto" class="profile-pic">
       <h2>Pamela Arevalo</h2>
-      <p class="description">Estudiante de Ingeniería en Computación, apasionada por la programación, el diseño web y las nuevas tecnologías. Me gusta crear soluciones innovadoras que conecten personas y conocimientos.</p>
+      <p class="description">
+        Estudiante de Ingeniería en Computación, apasionada por la programación, el diseño web y las nuevas tecnologías.
+        Me gusta crear soluciones innovadoras que conecten personas y conocimientos.
+      </p>
     </div>
 
     <div class="info-grid">
+
       <div class="info-box">
         <h3>Semestre</h3>
         <p>6º semestre</p>
@@ -42,7 +78,7 @@
         </ul>
       </div>
 
-      <div class="info-box">
+      <div id="Sociales">
         <h3>Redes Sociales</h3>
         <div class="social-links">
           <a href="https://github.com/PomsArevalo" target="_blank">GitHub</a>
@@ -50,8 +86,18 @@
           <a href="https://www.instagram.com/pam_pam_arevalo/" target="_blank">Instagram</a>
         </div>
       </div>
+
     </div>
   </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div id="CuadroTres">
+      <p>Proyecto parcial</p>
+      <p>FES Aragón - UNAM | 6° Semestre</p>
+      <p>Materia: Temas especiales de computación - Mayo 2025</p>
+    </div>
+  </footer>
 
 </body>
 </html>

@@ -1,24 +1,25 @@
+/* ========== ESTILOS GENERALES ========== */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg, #0a0a0a, #001f3f);
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
+  background-color: black;
 }
 
+/* ========== CARD PRINCIPAL ========== */
 .card {
   background: radial-gradient(circle at top left, #000814);
   border-radius: 20px;
   padding: 2rem;
   max-width: 1000px;
   width: 90%;
+  margin: 100px auto;
   box-shadow: 0 0 30px #005eff99;
   backdrop-filter: blur(8px);
 }
 
+/* ========== SECCIÓN PERFIL ========== */
 .profile-section {
   text-align: center;
   margin-bottom: 2rem;
@@ -46,6 +47,7 @@ body {
   line-height: 1.5;
 }
 
+/* ========== GRID DE INFORMACIÓN ========== */
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -81,6 +83,7 @@ body {
   padding: 0.3rem 0;
 }
 
+/* ========== REDES SOCIALES ========== */
 .social-links a {
   display: inline-block;
   margin: 0.3rem;
@@ -95,4 +98,13 @@ body {
 .social-links a:hover {
   background: #00aaff;
   color: #000814;
+}
+
+/* Contenedor Redes Sociales */
+#Sociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 940px;
 }

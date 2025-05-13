@@ -1,10 +1,9 @@
 body {
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background: linear-gradient(135deg, #0a0a0a, #001f3f);
+  background: black;
   color: #e0e0e0;
 }
-
 .hero {
   display: flex;
   align-items: center;
