@@ -1,48 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nayeli Viridiana Jiménez Romero</title>
+  <meta charset="UTF-8">
+  <title>Viridiana</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="Desarrolladores.css">
+  <link rel="stylesheet" href="estilosindex.css">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div>
-        <div class="main">
-            <div class="perfil"> 
-                <h1>Viridiana</h1>
-                <img src="" alt="">
-            </div> 
 
-            <div class="info">
-                <h2 class="subtitulos">Mis tecnologias favoritas:</h2>
-                <ul>
-                    <li class="viñetas">Tecnología creativa: App para editar fotos como VSCO.</li>
-                    <li class="viñetas">Música: Spotify</li>
-                    <li class="viñetas">Streaming: Netflix o Disney+</li>
-                    
-                </ul>
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="titulo">CommitSquad</h1>
 
-                <H2 class="subtitulos">Semestre:</H2>
-                <ul>
-                    <li class="viñetas">6to Semestre</li>
-                </ul>
+    <div class="botones">
+      <a href="index.html">INICIO</a>
+      <a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">FES</a>
 
-                <H2 class="subtitulos">Hobbies:</H2>
-                <ul>
-                    <li class="viñetas">La música: Fan de bandas shoegaze. </li>
-                    <li class="viñetas">Leer: Me gusta leer libros y revistas científicas.</li>
-                    <li class="viñetas">El cine: Películas clásicas o series.</li>
-                    <li class="viñetas">La arquitectura: Visitar lugares con edificios bonitos, gusto por la estética urbana .</li>
-                </ul>
-
-                <h2 class="subtitulos">Redes Sociales:</h2>
-                <ul>
-                    <li class="viñetas"><strong>YT:</strong></li>
-                    <li class="viñetas"><strong>X:</strong></li>
-                    <li class="viñetas"><strong>Git:</strong></li>
-                </ul>
-            </div>
+      <div class="dropdown">
+        <a href="#">DESARROLLADORES ▾</a>
+        <div class="dropdown-content">
+          <a href="Diego.html">Diego Barrera</a>
+          <a href="Yolanda.html">Yolanda Barrera</a>
+          <a href="Erick.html">Erick Garcia</a>
+          <a href="Galilea.html">Galilea Gonzalez</a>
+          <a href="Edagr.html">Edgar Hernandez</a>
+          <a href="Viridiana.html">Viridiana Jiménez</a>
+          <a href="Pamela.html">Pamela Ramirez</a>
+          <a href="Ricardo.html">Ricardo Rojas</a>
         </div>
+      </div>
     </div>
+  </header>
+
+  <!-- PERFIL -->
+  <section class="card">
+
+    <div class="profile-section">
+      <img src="img/Viridiana.jpg" alt="Foto" class="profile-pic">
+      <h2>Viridiana</h2>
+      <p class="description">
+        Estudiante de Ingeniería en Computación, me habitan el diseño, la poesía y el asombro por aquellas máquinas que piensan y se mueven —inteligencia artificial y robótica— como si el alma buscara nuevas formas de manifestarse.
+        Buscando ese punto en que la máquina sueña y el arte respira, donde la creación no distingue entre lo sensible y lo lógico.
+      </p>
+    </div>
+
+    <div class="info-grid">
+
+      <div class="info-box">
+        <h3>Semestre</h3>
+        <p>6º semestre</p>
+      </div>
+
+      <div class="info-box">
+        <h3>Lenguajes Favoritos</h3>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Kotlin</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Perderse en una historia escrita.</li>
+          <li>Disfrutar de películas y series.</li>
+          <li>Montar en bicicleta.</li>
+          <li>Reproducir música.</li>
+        </ul>
+      </div>
+
+      <div id="Sociales">
+        <h3>Redes Sociales</h3>
+        <div class="social-links">
+          <a href="https://github.com/ViridianaJ" target="_blank">GitHub</a>
+       
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div id="CuadroTres">
+      <p>Proyecto parcial</p>
+      <p>FES Aragón - UNAM | 6° Semestre</p>
+      <p>Materia: Temas especiales de computación - Mayo 2025</p>
+    </div>
+  </footer>
+
 </body>
 </html>
