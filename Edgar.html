@@ -1,57 +1,96 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hernandez Castellanos Edgar Ivan</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <title>Edgar Iván Hernández Castellanos</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="Desarrolladores.css">
+  <link rel="stylesheet" href="estilosindex.css">
+  
 </head>
+
 <body>
-    <div>
-    	<header class="header">
-            <img src="img/logo.png" height="90" alt="logo">
-            <div class="botones">
-                <a href=".html">Teoría Básica IS</a>
-                <a href=".html">Patrones de diseño</a>
-                <a href=".html">Scrum</a>
-                <a href=".html">Desarrolladores</a>
-            </div>
-        </header>
-        <div class="main">
-            <div class="perfil"> 
-                <h1>Iván</h1>
-                <img src="img/gali.png" alt="">
-            </div> 
 
-            <div class="info">
-                <h2 class="subtitulos">Mis tecnologias favoritas:</h2>
-                <ul>
-                    <li class="viñetas">C++</li>
-                    <li class="viñetas">Python</li>
-                    <li class="viñetas">GitHub</li>
-                    <li class="viñetas">FL Studio</li>
-                </ul>
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="titulo">CommitSquad</h1>
 
-                <H2 class="subtitulos">Semestre que se esta cursando actualmente:</H2>
-                <ul>
-                    <li class="viñetas">Sexto semestre</li>
-                </ul>
+    <div class="botones">
+      <a href="index.html">INICIO</a>
+      <a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">FES</a>
 
-                <h2 class="subtitulos">Redes Sociales:</h2>
+      <div class="dropdown">
+        <a href="#">DESARROLLADORES ▾</a>
+        <div class="dropdown-content">
+          <a href="Diego.html">Diego Barrera</a>
+          <a href="Yolanda.html">Yolanda Barrera</a>
+          <a href="Erick.html">Erick Garcia</a>
+          <a href="Galilea.html">Galilea Gonzalez</a>
+          <a href="Edagr.html">Edgar Hernandez</a>
+          <a href="Viridiana.html">Viridiana Jiménez</a>
+          <a href="Pamela.html">Pamela Ramirez</a>
+          <a href="Ricardo.html">Ricardo Rojas</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PERFIL -->
+  <section class="card">
+
+    <div class="profile-section">
+      <img src="img/Pamela.jpg" alt="Foto" class="profile-pic">
+      <h2>Edgar Iván</h2>
+      <p class="description">
+        Estudiante de Ingeniería en Computación. Tengo cierta afición por la programación, la musica y muchas otras cosas relacionadas a la tecnología.
+      </p>
+    </div>
+
+    <div class="info-grid">
+
+      <div class="info-box">
+        <h3>Semestre que se esta cursando actualmente:</h3>
+        <p>6º semestre</p>
+      </div>
+
+      <div class="info-box">
+        <h3>Lenguajes Favoritos</h3>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>C++</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Programación</li>
+          <li>Escuchar música</li>
+          <li>Jugar videojuegos</li>
+        </ul>
+      </div>
+
+      <div id="Sociales">
+        <h2 class="subtitulos">Redes Sociales:</h2>
                 <ul>
                     <li class="viñetas"><strong>GitHub:</strong> IvanCastellanos21</li>
                 </ul>
-            </div>
-        </div>
+      </div>
 
-        <footer class="footer">
-            <div id="infoFooter">
-                <span>©Todos los derechos reservados - CommitSquad - Temas Especiales</span>
-                <span>CommitSquad@gmail.com</span>
-                <span>Tel: 55-26319822 </span>
-            </div>
-        </footer>  
     </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div id="CuadroTres">
+      <p>Proyecto parcial</p>
+      <p>FES Aragón - UNAM | 6° Semestre</p>
+      <p>Materia: Temas especiales de computación - Mayo 2025</p>
+    </div>
+  </footer>
+
 </body>
 </html>
